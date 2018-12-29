@@ -5,4 +5,26 @@ body {
 
 h1 {
   color: orange;
+  text-align: center; /* making the the header to be in the center */
+}
+
+/* * is an universal selector styles added to this will be applied to all */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* element selector it will be applied to all p tag */
+p {
+  color: blue;
+}
+
+/* id selector */
+#error {
+  color: red;
+}
+
+/* class selector */
+p.black-text {
+  color: black;
 }
