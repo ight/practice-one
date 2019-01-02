@@ -28,3 +28,22 @@ p {
 p.black-text {
   color: black;
 }
+
+/* Descendent selector */
+ul.menu li a {
+  text-decoration: none;
+}
+
+h2 em  {
+  color: red;
+}
+
+/* child selector */
+ul > li {
+  list-style: square;
+  font-size: 30px;
+}
+
+ul > li ol {
+  font-size: 60px;
+}
