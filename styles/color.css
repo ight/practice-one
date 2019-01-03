@@ -1,0 +1,11 @@
+/* setting body color to black does not mean the body will be black
+rather any element inside body will have the property color to be set as black
+by default */
+
+body {
+color: #000000;
+}
+
+h2 {
+  color: blue;
+}
