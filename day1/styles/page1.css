@@ -19,9 +19,10 @@ a {
   font-size: 17px;
   padding-right: 10px;
   text-align: center;
+  padding-left: 10px;
 }
 
-.logo {
+.cat {
   border-radius: 30px;
   height: 40px;
   width: 40px;
@@ -29,6 +30,11 @@ a {
   padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
+  display: inline;
+}
+
+.logo {
+  display: inline;
 }
 
 input {
@@ -37,4 +43,10 @@ input {
   padding-top: 0px;
   padding-bottom: -10px;
   text-align: center;
+}
+
+.items {
+  display: inline;
+  position: absolute;
+  padding-top: 18px;
 }
