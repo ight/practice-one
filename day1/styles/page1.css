@@ -70,6 +70,7 @@ input {
   padding-right: 16px;
   width: 229px;
   height: 511px;
+  position: absolute;
 }
 
 .main-content {
@@ -77,4 +78,9 @@ input {
   padding-left: 8px;
   width: 727px;
   height: 511px;
+}
+
+.avatar {
+  height: 230px;
+  width: 229px;
 }
