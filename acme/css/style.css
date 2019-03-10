@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  /* line for above css
+   font: 15px/1.5 Arial, Helvetica, sans-serif;
+   */
+  padding: 0px;
+  margin: 0px;
+  background-color: #f4f4f4;
+}
+/* Golbal container style */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Header */
+header {
+  background: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+}
